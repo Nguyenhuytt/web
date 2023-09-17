@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#banner img{
+    width:100%;
+    height:200px;
+
+}
+
+.google-font{
+    font-family: 'Josefin Sans', sans-serif; 
+}
+#footer{
+    background-color:dimgray;
+    
+}
+#footer pre{
+    color:lime;
+    padding-top:10px;
+}
+#sign input{
+    color:red;
+}
+
+h1{
+    color:hotpink;
+}
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    #banner img{
+        height:300px;
+    }
+    
+    #footer pre{
+        color:lime;
+        padding-left:15%;
+        padding-top:10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    #banner img{
+        height:300px;
+    
+    }
+    #footer pre{
+        color:lime;
+        padding-left:25%;
+        padding-top:10px;
+    }
+}
